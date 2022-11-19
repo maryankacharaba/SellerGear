@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Projects\Deploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>11/29/2020 16:55:48</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>11/29/2020 16:55:48</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/27/2017 12:59:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/22/2018 15:25:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/22/2018 15:36:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/22/2018 13:39:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/22/2018 15:35:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/22/2018 15:36:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/22/2018 13:36:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/24/2018 12:47:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2018 15:28:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2018 15:28:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2018 15:28:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2018 15:28:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2018 15:28:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2018 15:28:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2018 15:28:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2018 15:28:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2018 15:28:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 08:44:54</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 12:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/SellerGear.Web.dll">
+      <publishTime>11/29/2020 20:32:53</publishTime>
+    </File>
+    <File Include="bin/SellerGear.Web.pdb">
+      <publishTime>11/29/2020 20:32:53</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 11:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 11:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Content/favicon.ico">
+      <publishTime>11/29/2020 17:08:32</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest.html">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/analytics.js.download">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/animate.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/bc.min.html">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/blussom-lp-demo.html">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/bootstrap.min.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/bootstrap.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/color-1.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/cookiebot.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/demo-img1.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/demo-img2.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/demo-img3.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/ec.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/fcf8d519de">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/iconfont.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/index-3d9e587d5c72c43e6bcf2abbd3c08dffb9e4551a379f37c923bcd35fba07dba3.js.download">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/index-7790bc425ccadadb36c636d0ed9c8ea99bcce265a85a46994d4e85ae75fe4c9b.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/index-b4623b903432258c6afd89f6537beb658c2f42c56708978cfa2551ed6b28cb73.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/jquery.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/linkid.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/logo.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/nr-1184.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/responsive.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/saved_resource.html">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/state.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/style.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/uc.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Blussom Insurance Service Landing Page Template Preview - ThemeForest_files/wow.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page.html">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/animate.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/bootstrap.min.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/bootstrap.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/color-1.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/css.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/custom.js">
+      <publishTime>11/29/2020 20:21:18</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-heart-tab.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-heart.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-multicolor-1.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-multicolor-2.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-multicolor-3.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-pet-tab.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-pet.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-plane-tab.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/icon-plane.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/iconfont.css">
+      <publishTime>11/29/2020 19:01:04</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/img-abt1.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/img-abt2.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/img-healthins.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/img-petins.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/img-travelins.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/jquery.easing.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/jquery.form.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/jquery.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/jquery.validate.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/logo-sticky.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/logo.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/post-img1.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/post-img2.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/post-img3.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/post-img4.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/responsive.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/select2.min.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/select2.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/sig.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/smooth-scroll.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/style.css">
+      <publishTime>11/29/2020 19:10:39</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/swiper.min.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/swiper.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/trustpilot-logo.png">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/user-4.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/user-5.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/user-6.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/user-7.jpg">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/venobox.css">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/venobox.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/layout1/Landing Page_files/wow.min.js">
+      <publishTime>11/29/2020 17:06:44</publishTime>
+    </File>
+    <File Include="Content/logo.png">
+      <publishTime>11/29/2020 17:13:15</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/29/2020 16:54:57</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/29/2020 16:54:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/29/2020 16:54:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/29/2020 16:55:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>11/29/2020 16:55:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>11/29/2020 16:55:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>11/29/2020 16:55:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>11/29/2020 16:55:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>11/29/2020 16:55:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>11/29/2020 16:55:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/29/2020 16:55:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/29/2020 16:55:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>11/29/2020 16:55:34</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/29/2020 20:23:20</publishTime>
+    </File>
+    <File Include="Views/Home/Privacy.cshtml">
+      <publishTime>11/29/2020 20:31:21</publishTime>
+    </File>
+    <File Include="Views/Home/Terms.cshtml">
+      <publishTime>11/29/2020 20:31:41</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>11/29/2020 16:55:40</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>11/29/2020 16:55:40</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/29/2020 16:55:39</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>11/29/2020 16:55:40</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/29/2020 20:23:01</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>11/29/2020 16:55:40</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/29/2020 16:54:57</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/29/2020 16:54:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2020 20:32:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

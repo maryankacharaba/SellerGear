@@ -1,0 +1,9 @@
+
+.suo
+bin
+obj
+.dtbcache.v2
+packages
+.vs
+.idea
+node_modules

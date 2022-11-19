@@ -1,0 +1,294 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Header
+   ============================================= -->
+<header id="dtr-header-global" class="fixed-top">
+    <nav class="navbar navbar-expand-lg dtr-menu navbar-dark">
+        <div class="container">
+
+            <!-- light logo -->
+            <a class="navbar-brand logo-light" href="/">
+                <img src="/Content/logo_full_white.png" style="height: 40px;" alt="logo">
+            </a>
+            <!-- dark logo -->
+            <a class="navbar-brand logo-dark" href="/">
+                <img src="/Content/logo_full_dark.png" style="height: 40px;" alt="logo">
+            </a>
+
+            <!-- nav menu toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+            <!-- menu starts-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="dtr-scrollspy navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link active" href="/">Home</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#lnk-profit-dashboard">
+                            Profit Dashbboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#lnk-listing-assistant">
+                            Listing Assistant
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#lnk-business-alerts">
+                            Business Alerts
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="hero-section dtr-py-8 hero-default-bg bg-blue">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- column 1 starts -->
+            <div class="col-12 col-md-6 dtr-sm-mb-30px color-white">
+
+                <!-- Heading -->
+                <h1 class="dtr-mb-4 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    Charge your Amazon Business
+
+                </h1>
+
+                <!-- Text -->
+                <h4 class="dtr-mb-4 text-size-md- color-white-muted">
+                    Boost your Sales and Maximise Profits
+                </h4>
+
+                <!-- list starts -->
+                <ul class="dtr-list-checkmark dtr-mb-5 text-size-md color-white-muted">
+                    <li>
+                        <h6>
+                            Monitor your Sales and Know your true profit margins
+                        </h6>
+                    </li>
+                    <li>
+                        <h6>
+                            Automate your Amazon Profit Calculations
+                        </h6>
+                    </li>
+                    <li>
+                        <h6>
+                            Receive Accurate Sales Insights and Optimization Tips
+                        </h6>
+                    </li>
+                </ul>
+                <!-- list ends -->
+
+            </div>
+            <!-- column 1 ends -->
+            <!-- column 2 starts -->
+            <div class="col-12 col-md-6 wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                <div class="dtr-hero-form">
+
+                    <!-- form header starts -->
+                    <div class="dtr-form-head">
+                        <h4 class="text-center">
+                            Apply for early access
+                        </h4>
+                    </div>
+
+                    <!-- form body starts -->
+                    <div class="dtr-form-body">
+
+                        <div class="dtr-form dtr-submit-full">
+
+                            <form id="contactform" method="post" action="/Home/Index">
+                                <p class="text-center dtr-mb-4 text-size-sm">
+                                    Reserve your spot on the waitinglist
+                                </p>
+                                <fieldset>
+                                    <p>
+                                        <input name="name" type="text" placeholder="Name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;">
+                                    </p>
+                                    <p>
+                                        <input name="number" class="number" type="text" placeholder="Phone">
+                                    </p>
+                                    <p>
+                                        <input name="email" class="required email" type="text" placeholder="Email">
+                                    </p>
+
+                                    <button type="submit" class="dtr-btn-round dtr-btn-blue">Apply</button>
+                                    <div id="result"></div>
+                                </fieldset>
+                            </form>
+                            <div id="apply-done" style="display: none;">
+                                <h4>
+                                    Thank you!
+                                </h4>
+                                <h5>
+                                    We will get back to you soon.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- form body ends -->
+
+                </div>
+            </div>
+            <!-- column 2 ends -->
+
+        </div>
+    </div>
+</section>
+
+
+<section id="products" class="dtr-sticky-tabs-wrapper dtr-border-top">
+
+
+    <div id="lnk-profit-dashboard" data-target=".dtr-scrollspy-tabs">
+
+        <!-- tab 1 starts -->
+        <section id="tab1" class="dtr-sticky-tabs-section">
+            <div class="dtr-sticky-tabs-content">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <!-- column 1 starts -->
+                        <div class="col-12 col-md-7 dtr-sm-mb-30px wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <img src="/Content/profits.png" alt="logo">
+                        </div>
+                        <!-- column 1 ends -->
+                        <!-- column 2 starts -->
+                        <div class="col-12 col-md-5 wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+
+                            <!-- Icon Image -->
+                            @*<img src="/Content/layout1/Landing Page_files/icon-heart.png" alt="logo" class="dtr-mb-4">*@
+
+                            <!-- Heading -->
+                            <h2 class="dtr-mb-4">
+                                Profit Dashboard
+                            </h2>
+
+                            <!-- Text -->
+                            <p class="dtr-mb-5">
+                                Identify and Analyze the products that bringing you profits without having to manually dig through reports.
+                                Profit Dashboard automatically tracks major metrics and presents it to you in KPI widgets and pivot tables.
+
+                                <br /><br />
+                                Integrated with your Amazon Seller Central account.
+                            </p>
+
+                        </div>
+                        <!-- column 2 ends -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tab 1 ends -->
+        <!-- tab 2 starts -->
+        <section id="lnk-listing-assistant" class="dtr-sticky-tabs-section">
+            <div class="dtr-sticky-tabs-content">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <!-- column 1 starts -->
+                        <div class="col-12 col-md-5 dtr-sm-mb-30px wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+
+                            <!-- Icon Image -->
+                            @*<img src="/Content/layout1/Landing Page_files/icon-plane.png" alt="logo" class="dtr-mb-4">*@
+
+                            <!-- Heading -->
+                            <h2 class="dtr-mb-4">
+                                Listing Assistant
+                            </h2>
+
+                            <!-- Text -->
+                            <p class="dtr-mb-5">
+                                Our Amazon Listing Optimization Tool analyzes product listings against best practice strategies to provide listing optimization recommendations.
+                                <br /><br />
+                                Improve the On Page Listing Conversions.
+                                <br />
+                                Research and Analyze Competitor Listings.
+                            </p>
+
+                        </div>
+                        <!-- column 1 ends -->
+                        <!-- column 2 starts -->
+                        <div class="col-12 col-md-7 text-right wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <img src="/Content/analytics.png" alt="logo">
+                        </div>
+                        <!-- column 2 ends -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tab 2 ends -->
+        <!-- tab 3 starts -->
+        <section id="lnk-business-alerts" class="dtr-sticky-tabs-section">
+            <div class="dtr-sticky-tabs-content">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <!-- column 1 starts -->
+                        <div class="col-12 col-md-7 dtr-sm-mb-30px wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <img src="/Content/alert.png" alt="logo">
+                        </div>
+                        <!-- column 1 ends -->
+                        <!-- column 2 starts -->
+                        <div class="col-12 col-md-5 wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+
+                            <!-- Icon Image -->
+                            @*<img src="/Content/layout1/Landing Page_files/icon-pet.png" alt="logo" class="dtr-mb-4">*@
+
+                            <!-- Heading -->
+                            <h2 class="dtr-mb-4">
+                                Business Alerts
+                            </h2>
+
+                            <!-- Text -->
+                            <p class="dtr-mb-5">
+                                Generate insights from sales, data, and KPIs and forecast future sales performance and keeps up updated.
+                            </p>
+
+                        </div>
+                        <!-- column 2 ends -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tab 3 ends -->
+
+    </div>
+</section>
+
+
+
+@section scripts {
+<script>
+    $(document).ready(function () {
+        "use strict";
+        // header transitions
+        function headerSticky() {
+            var windowPos = $(window).scrollTop();
+            if (windowPos > 20) {
+                $('.fixed-top').addClass("on-scroll");
+                $('.navbar').addClass("navbar-light").removeClass("navbar-dark");
+            } else {
+                $('.fixed-top').removeClass("on-scroll");
+                $('.navbar').addClass("navbar-dark").removeClass("navbar-light");
+            }
+        }
+        headerSticky();
+        $(window).scroll(headerSticky);
+
+    }); // document ready
+
+    function applyForAccess() {
+        $('#contactform').hide();
+        $('#apply-done').show();
+    }
+</script>
+
+}
