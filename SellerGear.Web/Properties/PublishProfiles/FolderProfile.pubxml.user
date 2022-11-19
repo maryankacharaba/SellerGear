@@ -7,6 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>E:\Projects\Deploy</_PublishTargetUrl>
+    <History>False|2022-11-19T12:54:44.1938790Z;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
